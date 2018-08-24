@@ -1,5 +1,5 @@
 import React from 'react';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 // // import {withRouter} from 'react-router';
 // // import {connect} from 'react-redux';
 
@@ -7,7 +7,9 @@ import React from 'react';
 
 const Nav = props => {
     return(
-        <div>Nav</div>
+        <div>
+            <Link to='/' ><button>Logout</button></Link>
+        </div>
     )
 }
 
